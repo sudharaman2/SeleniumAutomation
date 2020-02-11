@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="mysuite2" verbose="1">
+	<test name="mytest1">
+
+		<groups>
+			<run>
+				<include name="regression" />
+			</run>
+		</groups>
+		<classes>
+			<class name="test.testng.AppTest">
+
+			</class>
+
+		</classes>
+	</test>
+
+
+
+</suite>

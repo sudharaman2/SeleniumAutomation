@@ -1,0 +1,78 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 225, Failures: 7, Errors: 1, Skipped: 1, Time elapsed: 3.593 sec <<< FAILURE!
+testaddition(test.testng.TestAddition)  Time elapsed: 0.016 sec  <<< FAILURE!
+java.lang.AssertionError: expected [11] but found [9]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:179)
+	at test.testng.TestAddition.testaddition(TestAddition.java:12)
+
+testMethod3(test.testng.AppTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertFalse(Assert.java:63)
+	at org.testng.Assert.assertFalse(Assert.java:73)
+	at test.testng.AppTest.testMethod3(AppTest.java:54)
+
+testMethod2(test.testng.AppTest)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertFalse(Assert.java:63)
+	at org.testng.Assert.assertFalse(Assert.java:73)
+	at test.testng.AppTest.testMethod2(AppTest.java:48)
+
+mytest1(test.testng.retry.MyRetryTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at test.testng.retry.MyRetryTest.mytest1(MyRetryTest.java:13)
+
+mytest2(test.testng.retry.MyRetryTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at test.testng.retry.MyRetryTest.mytest2(MyRetryTest.java:19)
+
+testaddition(test.testng.TestAddition)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected [11] but found [9]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:179)
+	at test.testng.TestAddition.testaddition(TestAddition.java:12)
+
+test4(test.testng.TestPriority)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertFalse(Assert.java:63)
+	at org.testng.Assert.assertFalse(Assert.java:73)
+	at test.testng.TestPriority.test4(TestPriority.java:29)
+
+method1(test.testng.TestClass)  Time elapsed: 0.007 sec  <<< FAILURE!
+org.testng.TestNGException: 
+Parameter 'hostname' is required by @Test on method method1 but has not been marked @Optional or defined
+in C:\Users\SudhaChandoo\TestNG\testng\testng.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:199)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:443)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:568)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1293)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:1020)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1110)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+

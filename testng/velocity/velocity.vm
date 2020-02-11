@@ -1,0 +1,100 @@
+<HTML>
+<HEAD>
+<TITLE>Project Test Execution Report</TITLE>
+
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+</style>
+</HEAD>
+
+
+<BODY>
+	<CENTER>
+		<TABLE>
+			#foreach($suiteName in ${Suites.keySet()})
+			<TR>
+				<TD>$suiteName</TD>
+			</TR>
+			<TR>
+				#foreach($testcontextname in ${Suites.get($suiteName).keySet()})
+					<TD>
+					$testcontextname
+					</TD>
+					<TABLE>
+					#foreach($testcontext in ${Suites.get($suiteName).get($testcontextname).keySet()})
+						<TR>
+							<TD>
+							$testcontext
+							</TD>
+							<TD>
+							
+								#if( $Suites.get($suiteName).get($testcontextname).get($testcontext).get("passedTests").size() > 0 )
+									<B>PASS</B>
+								#else
+									<B>FAIL</B>
+								#end
+							</TD>
+							
+							<TD>
+						
+					<TABLE>		
+					#foreach($teststatus in ${Suites.get($suiteName).get($testcontextname).get($testcontext)})
+						<TR>
+						#if( $teststatus.size() > 0 )
+							#foreach($test in $teststatus)
+							<TD>
+								<TABLE>
+									<TR>
+									<TD>
+									StartTime
+									</TD>
+		  							<TD>
+									$test.getAttribute("StartTime")
+									</TD>
+									</TR>
+									
+									<TR>
+									<TD>
+									Reruns
+									</TD>
+		  							<TD>
+									$test.getMethod().getCurrentInvocationCount()
+									</TD>
+									</TR>
+									
+									
+								</TABLE>
+							</TD>
+							#end
+						#end
+						</TR>
+					#end
+					</TABLE>
+					
+							
+							
+							
+							</TD>
+						</TR>
+					#end
+					</TABLE>
+						
+				#end 
+			</TR>
+			#end
+		</TABLE>
+	</CENTER>
+
+</BODY>
+</HTML>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [mysuite1]" parallel="methods">
+  <test name="mytest1(failed)" parallel="methods">
+    <classes>
+      <class name="test.testng.TestAddition">
+        <methods>
+          <include name="testaddition" invocation-numbers="1"/>
+        </methods>
+      </class> <!-- test.testng.TestAddition -->
+      <class name="test.testng.AppTest">
+        <methods>
+          <include name="beforesuite"/>
+        </methods>
+      </class> <!-- test.testng.AppTest -->
+    </classes>
+  </test> <!-- mytest1(failed) -->
+  <test name="mytest3(failed)" parallel="methods">
+    <classes>
+      <class name="test.testng.retry.MyRetryTest">
+        <methods>
+          <include name="mytest2"/>
+          <include name="mytest1"/>
+        </methods>
+      </class> <!-- test.testng.retry.MyRetryTest -->
+      <class name="test.testng.TestAddition">
+        <methods>
+          <include name="testaddition" invocation-numbers="1"/>
+        </methods>
+      </class> <!-- test.testng.TestAddition -->
+      <class name="test.testng.AppTest">
+        <methods>
+          <include name="testMethod2"/>
+          <include name="testmethod5"/>
+          <include name="beforesuite"/>
+          <include name="testMethod3"/>
+        </methods>
+      </class> <!-- test.testng.AppTest -->
+      <class name="test.testng.TestClass">
+        <methods>
+          <include name="method1"/>
+        </methods>
+      </class> <!-- test.testng.TestClass -->
+    </classes>
+  </test> <!-- mytest3(failed) -->
+</suite> <!-- Failed suite [mysuite1] -->

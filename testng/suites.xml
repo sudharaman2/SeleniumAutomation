@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="allsuite" verbose="1">
+	<listeners>
+		<listener class-name="test.testng.reporting.Myreporter2" />
+	</listeners>
+	<suite-files>
+		<suite-file path="testng.xml"></suite-file>
+		<suite-file path="testng2.xml"></suite-file>
+	</suite-files>
+</suite>

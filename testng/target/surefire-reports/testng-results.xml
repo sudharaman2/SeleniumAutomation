@@ -1,0 +1,1319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="7" ignored="5" total="229" passed="216">
+  <reporter-output>
+  </reporter-output>
+  <suite name="mysuite1" duration-ms="378" started-at="2020-01-28T14:10:29Z" finished-at="2020-01-28T14:10:30Z">
+    <groups>
+      <group name="regression">
+        <method signature="AppTest.testAdd()[pri:0, instance:test.testng.AppTest@4f51b3e0]" name="testAdd" class="test.testng.AppTest"/>
+        <method signature="AppTest.testAdd()[pri:0, instance:test.testng.AppTest@7fad8c79]" name="testAdd" class="test.testng.AppTest"/>
+        <method signature="AppTest.testMethod3()[pri:0, instance:test.testng.AppTest@7fad8c79]" name="testMethod3" class="test.testng.AppTest"/>
+      </group> <!-- regression -->
+      <group name="alpha">
+        <method signature="GroupsTest.method3()[pri:0, instance:test.testng.GroupsTest@76329302]" name="method3" class="test.testng.GroupsTest"/>
+      </group> <!-- alpha -->
+      <group name="smoke">
+        <method signature="GroupsTest.method1()[pri:0, instance:test.testng.GroupsTest@76329302]" name="method1" class="test.testng.GroupsTest"/>
+      </group> <!-- smoke -->
+      <group name="sanity">
+        <method signature="AppTest.testMethod2()[pri:0, instance:test.testng.AppTest@7fad8c79]" name="testMethod2" class="test.testng.AppTest"/>
+        <method signature="GroupsTest.method2()[pri:0, instance:test.testng.GroupsTest@76329302]" name="method2" class="test.testng.GroupsTest"/>
+      </group> <!-- sanity -->
+      <group name="beta">
+        <method signature="GroupsTest.method4()[pri:0, instance:test.testng.GroupsTest@76329302]" name="method4" class="test.testng.GroupsTest"/>
+      </group> <!-- beta -->
+    </groups>
+    <test name="mytest1" duration-ms="176" started-at="2020-01-28T14:10:29Z" finished-at="2020-01-28T14:10:30Z">
+      <class name="test.testng.AppTest">
+        <test-method status="PASS" signature="testAdd()[pri:0, instance:test.testng.AppTest@4f51b3e0]" name="testAdd" duration-ms="7" started-at="2020-01-28T19:40:29Z" finished-at="2020-01-28T19:40:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAdd -->
+      </class> <!-- test.testng.AppTest -->
+      <class name="test.testng.TestParallel">
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@5e57643e]" name="testparallel" duration-ms="32" started-at="2020-01-28T19:40:29Z" finished-at="2020-01-28T19:40:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@5e57643e]" name="testparallel" duration-ms="42" started-at="2020-01-28T19:40:29Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@5e57643e]" name="testparallel" duration-ms="27" started-at="2020-01-28T19:40:29Z" finished-at="2020-01-28T19:40:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@5e57643e]" name="testparallel" duration-ms="98" started-at="2020-01-28T19:40:29Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@5e57643e]" name="testparallel" duration-ms="8" started-at="2020-01-28T19:40:29Z" finished-at="2020-01-28T19:40:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@5e57643e]" name="testparallel" duration-ms="1" started-at="2020-01-28T19:40:29Z" finished-at="2020-01-28T19:40:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@5e57643e]" name="testparallel" duration-ms="8" started-at="2020-01-28T19:40:29Z" finished-at="2020-01-28T19:40:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@5e57643e]" name="testparallel" duration-ms="3" started-at="2020-01-28T19:40:29Z" finished-at="2020-01-28T19:40:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@5e57643e]" name="testparallel" duration-ms="0" started-at="2020-01-28T19:40:29Z" finished-at="2020-01-28T19:40:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@5e57643e]" name="testparallel" duration-ms="0" started-at="2020-01-28T19:40:29Z" finished-at="2020-01-28T19:40:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@5e57643e]" name="testparallel" duration-ms="0" started-at="2020-01-28T19:40:29Z" finished-at="2020-01-28T19:40:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@5e57643e]" name="testparallel" duration-ms="29" started-at="2020-01-28T19:40:29Z" finished-at="2020-01-28T19:40:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@5e57643e]" name="testparallel" duration-ms="1" started-at="2020-01-28T19:40:29Z" finished-at="2020-01-28T19:40:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@5e57643e]" name="testparallel" duration-ms="0" started-at="2020-01-28T19:40:29Z" finished-at="2020-01-28T19:40:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@5e57643e]" name="testparallel" duration-ms="0" started-at="2020-01-28T19:40:29Z" finished-at="2020-01-28T19:40:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@5e57643e]" name="testparallel" duration-ms="0" started-at="2020-01-28T19:40:29Z" finished-at="2020-01-28T19:40:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@5e57643e]" name="testparallel" duration-ms="0" started-at="2020-01-28T19:40:29Z" finished-at="2020-01-28T19:40:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@5e57643e]" name="testparallel" duration-ms="1" started-at="2020-01-28T19:40:29Z" finished-at="2020-01-28T19:40:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@5e57643e]" name="testparallel" duration-ms="1" started-at="2020-01-28T19:40:29Z" finished-at="2020-01-28T19:40:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@5e57643e]" name="testparallel" duration-ms="1" started-at="2020-01-28T19:40:29Z" finished-at="2020-01-28T19:40:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@5e57643e]" name="testparallel" duration-ms="3" started-at="2020-01-28T19:40:29Z" finished-at="2020-01-28T19:40:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@5e57643e]" name="testparallel" duration-ms="2" started-at="2020-01-28T19:40:29Z" finished-at="2020-01-28T19:40:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@5e57643e]" name="testparallel" duration-ms="0" started-at="2020-01-28T19:40:29Z" finished-at="2020-01-28T19:40:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@5e57643e]" name="testparallel" duration-ms="9" started-at="2020-01-28T19:40:29Z" finished-at="2020-01-28T19:40:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@5e57643e]" name="testparallel" duration-ms="4" started-at="2020-01-28T19:40:29Z" finished-at="2020-01-28T19:40:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@5e57643e]" name="testparallel" duration-ms="59" started-at="2020-01-28T19:40:29Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@5e57643e]" name="testparallel" duration-ms="2" started-at="2020-01-28T19:40:29Z" finished-at="2020-01-28T19:40:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@5e57643e]" name="testparallel" duration-ms="2" started-at="2020-01-28T19:40:29Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@5e57643e]" name="testparallel" duration-ms="1" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@5e57643e]" name="testparallel" duration-ms="0" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@5e57643e]" name="testparallel" duration-ms="63" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@5e57643e]" name="testparallel" duration-ms="63" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@5e57643e]" name="testparallel" duration-ms="0" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@5e57643e]" name="testparallel" duration-ms="1" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@5e57643e]" name="testparallel" duration-ms="1" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@5e57643e]" name="testparallel" duration-ms="2" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@5e57643e]" name="testparallel" duration-ms="1" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@5e57643e]" name="testparallel" duration-ms="0" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@5e57643e]" name="testparallel" duration-ms="1" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@5e57643e]" name="testparallel" duration-ms="62" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@5e57643e]" name="testparallel" duration-ms="1" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@5e57643e]" name="testparallel" duration-ms="3" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@5e57643e]" name="testparallel" duration-ms="41" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@5e57643e]" name="testparallel" duration-ms="2" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@5e57643e]" name="testparallel" duration-ms="0" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@5e57643e]" name="testparallel" duration-ms="2" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@5e57643e]" name="testparallel" duration-ms="0" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@5e57643e]" name="testparallel" duration-ms="1" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@5e57643e]" name="testparallel" duration-ms="2" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@5e57643e]" name="testparallel" duration-ms="1" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@5e57643e]" name="testparallel" duration-ms="7" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@5e57643e]" name="testparallel" duration-ms="1" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@5e57643e]" name="testparallel" duration-ms="1" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@5e57643e]" name="testparallel" duration-ms="1" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@5e57643e]" name="testparallel" duration-ms="1" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@5e57643e]" name="testparallel" duration-ms="0" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@5e57643e]" name="testparallel" duration-ms="0" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@5e57643e]" name="testparallel" duration-ms="0" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@5e57643e]" name="testparallel" duration-ms="1" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@5e57643e]" name="testparallel" duration-ms="1" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@5e57643e]" name="testparallel" duration-ms="6" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@5e57643e]" name="testparallel" duration-ms="0" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@5e57643e]" name="testparallel" duration-ms="0" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@5e57643e]" name="testparallel" duration-ms="31" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@5e57643e]" name="testparallel" duration-ms="35" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@5e57643e]" name="testparallel" duration-ms="22" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@5e57643e]" name="testparallel" duration-ms="15" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@5e57643e]" name="testparallel" duration-ms="6" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@5e57643e]" name="testparallel" duration-ms="0" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@5e57643e]" name="testparallel" duration-ms="0" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@5e57643e]" name="testparallel" duration-ms="0" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@5e57643e]" name="testparallel" duration-ms="0" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@5e57643e]" name="testparallel" duration-ms="1" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@5e57643e]" name="testparallel" duration-ms="0" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@5e57643e]" name="testparallel" duration-ms="0" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@5e57643e]" name="testparallel" duration-ms="0" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@5e57643e]" name="testparallel" duration-ms="0" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@5e57643e]" name="testparallel" duration-ms="1" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@5e57643e]" name="testparallel" duration-ms="1" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@5e57643e]" name="testparallel" duration-ms="22" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@5e57643e]" name="testparallel" duration-ms="5" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@5e57643e]" name="testparallel" duration-ms="1" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@5e57643e]" name="testparallel" duration-ms="2" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@5e57643e]" name="testparallel" duration-ms="0" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@5e57643e]" name="testparallel" duration-ms="0" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@5e57643e]" name="testparallel" duration-ms="15" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@5e57643e]" name="testparallel" duration-ms="16" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@5e57643e]" name="testparallel" duration-ms="1" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@5e57643e]" name="testparallel" duration-ms="3" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@5e57643e]" name="testparallel" duration-ms="0" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@5e57643e]" name="testparallel" duration-ms="13" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@5e57643e]" name="testparallel" duration-ms="0" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@5e57643e]" name="testparallel" duration-ms="0" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@5e57643e]" name="testparallel" duration-ms="0" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@5e57643e]" name="testparallel" duration-ms="2" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@5e57643e]" name="testparallel" duration-ms="0" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@5e57643e]" name="testparallel" duration-ms="0" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@5e57643e]" name="testparallel" duration-ms="2" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@5e57643e]" name="testparallel" duration-ms="0" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@5e57643e]" name="testparallel" duration-ms="0" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+      </class> <!-- test.testng.TestParallel -->
+      <class name="test.testng.TestAddition">
+        <test-method status="PASS" signature="testaddition(java.lang.Integer, java.lang.Integer, java.lang.Integer)[pri:0, instance:test.testng.TestAddition@4b9e255]" name="testaddition" duration-ms="33" started-at="2020-01-28T19:40:29Z" data-provider="mydp1" finished-at="2020-01-28T19:40:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testaddition -->
+        <test-method status="FAIL" signature="testaddition(java.lang.Integer, java.lang.Integer, java.lang.Integer)[pri:0, instance:test.testng.TestAddition@4b9e255]" name="testaddition" duration-ms="7" started-at="2020-01-28T19:40:29Z" data-provider="mydp1" finished-at="2020-01-28T19:40:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[11]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [11] but found [9]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [11] but found [9]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:179)
+	at test.testng.TestAddition.testaddition(TestAddition.java:12)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testaddition -->
+        <test-method status="PASS" signature="testaddition(java.lang.Integer, java.lang.Integer, java.lang.Integer)[pri:0, instance:test.testng.TestAddition@4b9e255]" name="testaddition" duration-ms="1" started-at="2020-01-28T19:40:30Z" data-provider="mydp1" finished-at="2020-01-28T19:40:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testaddition -->
+      </class> <!-- test.testng.TestAddition -->
+    </test> <!-- mytest1 -->
+    <test name="mytest2" duration-ms="12" started-at="2020-01-28T14:10:30Z" finished-at="2020-01-28T14:10:30Z">
+      <class name="test.testng.TestExceptions">
+        <test-method status="PASS" signature="testexception2()[pri:0, instance:test.testng.TestExceptions@70a9f84e]" name="testexception2" duration-ms="1" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testexception2 -->
+      </class> <!-- test.testng.TestExceptions -->
+    </test> <!-- mytest2 -->
+    <test name="mytest3" duration-ms="127" started-at="2020-01-28T14:10:30Z" finished-at="2020-01-28T14:10:30Z">
+      <class name="test.testng.TestPriority">
+        <test-method status="SUCCESS_PERCENTAGE_FAILURE" signature="test4()[pri:0, instance:test.testng.TestPriority@31206beb]" name="test4" duration-ms="1" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertFalse(Assert.java:63)
+	at org.testng.Assert.assertFalse(Assert.java:73)
+	at test.testng.TestPriority.test4(TestPriority.java:29)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test4 -->
+      </class> <!-- test.testng.TestPriority -->
+      <class name="test.testng.AppTest">
+        <test-method status="PASS" signature="beforesuite()[pri:0, instance:test.testng.AppTest@7fad8c79]" name="beforesuite" is-config="true" duration-ms="367" started-at="2020-01-28T19:40:29Z" finished-at="2020-01-28T19:40:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforesuite -->
+        <test-method status="PASS" signature="testAdd()[pri:0, instance:test.testng.AppTest@7fad8c79]" name="testAdd" duration-ms="26" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAdd -->
+        <test-method status="FAIL" signature="testMethod3()[pri:0, instance:test.testng.AppTest@7fad8c79]" name="testMethod3" duration-ms="1" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertFalse(Assert.java:63)
+	at org.testng.Assert.assertFalse(Assert.java:73)
+	at test.testng.AppTest.testMethod3(AppTest.java:54)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod3 -->
+        <test-method status="FAIL" signature="testMethod2()[pri:0, instance:test.testng.AppTest@7fad8c79]" name="testMethod2" duration-ms="0" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertFalse(Assert.java:63)
+	at org.testng.Assert.assertFalse(Assert.java:73)
+	at test.testng.AppTest.testMethod2(AppTest.java:48)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod2 -->
+        <test-method status="PASS" signature="testmethod4()[pri:0, instance:test.testng.AppTest@7fad8c79]" name="testmethod4" duration-ms="0" depends-on-groups="sanity" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testmethod4 -->
+        <test-method status="SKIP" signature="testmethod5()[pri:0, instance:test.testng.AppTest@7fad8c79]" name="testmethod5" duration-ms="0" started-at="2020-01-28T19:40:30Z" description="test description" depends-on-methods="test.testng.AppTest.testMethod3" finished-at="2020-01-28T19:40:30Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method AppTest.testmethod5()[pri:0, instance:test.testng.AppTest@7fad8c79] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method AppTest.testmethod5()[pri:0, instance:test.testng.AppTest@7fad8c79] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1068)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testmethod5 -->
+      </class> <!-- test.testng.AppTest -->
+      <class name="test.testng.TestParallel">
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@1dd02175]" name="testparallel" duration-ms="0" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@1dd02175]" name="testparallel" duration-ms="0" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@1dd02175]" name="testparallel" duration-ms="0" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@1dd02175]" name="testparallel" duration-ms="0" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@1dd02175]" name="testparallel" duration-ms="1" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@1dd02175]" name="testparallel" duration-ms="1" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@1dd02175]" name="testparallel" duration-ms="0" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@1dd02175]" name="testparallel" duration-ms="1" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@1dd02175]" name="testparallel" duration-ms="0" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@1dd02175]" name="testparallel" duration-ms="2" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@1dd02175]" name="testparallel" duration-ms="1" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@1dd02175]" name="testparallel" duration-ms="0" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@1dd02175]" name="testparallel" duration-ms="0" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@1dd02175]" name="testparallel" duration-ms="3" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@1dd02175]" name="testparallel" duration-ms="1" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@1dd02175]" name="testparallel" duration-ms="1" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@1dd02175]" name="testparallel" duration-ms="4" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@1dd02175]" name="testparallel" duration-ms="1" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@1dd02175]" name="testparallel" duration-ms="0" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@1dd02175]" name="testparallel" duration-ms="3" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@1dd02175]" name="testparallel" duration-ms="1" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@1dd02175]" name="testparallel" duration-ms="0" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@1dd02175]" name="testparallel" duration-ms="0" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@1dd02175]" name="testparallel" duration-ms="1" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@1dd02175]" name="testparallel" duration-ms="0" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@1dd02175]" name="testparallel" duration-ms="1" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@1dd02175]" name="testparallel" duration-ms="0" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@1dd02175]" name="testparallel" duration-ms="3" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@1dd02175]" name="testparallel" duration-ms="1" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@1dd02175]" name="testparallel" duration-ms="0" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@1dd02175]" name="testparallel" duration-ms="9" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@1dd02175]" name="testparallel" duration-ms="0" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@1dd02175]" name="testparallel" duration-ms="1" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@1dd02175]" name="testparallel" duration-ms="1" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@1dd02175]" name="testparallel" duration-ms="1" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@1dd02175]" name="testparallel" duration-ms="0" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@1dd02175]" name="testparallel" duration-ms="0" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@1dd02175]" name="testparallel" duration-ms="0" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@1dd02175]" name="testparallel" duration-ms="0" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@1dd02175]" name="testparallel" duration-ms="0" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@1dd02175]" name="testparallel" duration-ms="0" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@1dd02175]" name="testparallel" duration-ms="0" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@1dd02175]" name="testparallel" duration-ms="0" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@1dd02175]" name="testparallel" duration-ms="1" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@1dd02175]" name="testparallel" duration-ms="0" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@1dd02175]" name="testparallel" duration-ms="2" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@1dd02175]" name="testparallel" duration-ms="0" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@1dd02175]" name="testparallel" duration-ms="1" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@1dd02175]" name="testparallel" duration-ms="0" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@1dd02175]" name="testparallel" duration-ms="1" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@1dd02175]" name="testparallel" duration-ms="6" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@1dd02175]" name="testparallel" duration-ms="1" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@1dd02175]" name="testparallel" duration-ms="0" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@1dd02175]" name="testparallel" duration-ms="0" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@1dd02175]" name="testparallel" duration-ms="1" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@1dd02175]" name="testparallel" duration-ms="1" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@1dd02175]" name="testparallel" duration-ms="0" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@1dd02175]" name="testparallel" duration-ms="0" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@1dd02175]" name="testparallel" duration-ms="0" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@1dd02175]" name="testparallel" duration-ms="1" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@1dd02175]" name="testparallel" duration-ms="1" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@1dd02175]" name="testparallel" duration-ms="0" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@1dd02175]" name="testparallel" duration-ms="1" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@1dd02175]" name="testparallel" duration-ms="1" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@1dd02175]" name="testparallel" duration-ms="0" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@1dd02175]" name="testparallel" duration-ms="0" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@1dd02175]" name="testparallel" duration-ms="4" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@1dd02175]" name="testparallel" duration-ms="1" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@1dd02175]" name="testparallel" duration-ms="0" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@1dd02175]" name="testparallel" duration-ms="1" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@1dd02175]" name="testparallel" duration-ms="0" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@1dd02175]" name="testparallel" duration-ms="0" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@1dd02175]" name="testparallel" duration-ms="0" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@1dd02175]" name="testparallel" duration-ms="0" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@1dd02175]" name="testparallel" duration-ms="0" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@1dd02175]" name="testparallel" duration-ms="0" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@1dd02175]" name="testparallel" duration-ms="1" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@1dd02175]" name="testparallel" duration-ms="14" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@1dd02175]" name="testparallel" duration-ms="0" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@1dd02175]" name="testparallel" duration-ms="0" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@1dd02175]" name="testparallel" duration-ms="1" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@1dd02175]" name="testparallel" duration-ms="9" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@1dd02175]" name="testparallel" duration-ms="0" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@1dd02175]" name="testparallel" duration-ms="0" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@1dd02175]" name="testparallel" duration-ms="9" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@1dd02175]" name="testparallel" duration-ms="0" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@1dd02175]" name="testparallel" duration-ms="6" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@1dd02175]" name="testparallel" duration-ms="1" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@1dd02175]" name="testparallel" duration-ms="6" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@1dd02175]" name="testparallel" duration-ms="0" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@1dd02175]" name="testparallel" duration-ms="0" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@1dd02175]" name="testparallel" duration-ms="8" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@1dd02175]" name="testparallel" duration-ms="7" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@1dd02175]" name="testparallel" duration-ms="0" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@1dd02175]" name="testparallel" duration-ms="0" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@1dd02175]" name="testparallel" duration-ms="0" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@1dd02175]" name="testparallel" duration-ms="1" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@1dd02175]" name="testparallel" duration-ms="0" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@1dd02175]" name="testparallel" duration-ms="1" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+        <test-method status="PASS" signature="testparallel()[pri:0, instance:test.testng.TestParallel@1dd02175]" name="testparallel" duration-ms="1" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testparallel -->
+      </class> <!-- test.testng.TestParallel -->
+      <class name="test.testng.listners.ListnerTest">
+        <test-method status="PASS" signature="mytest2()[pri:0, instance:test.testng.listners.ListnerTest@5e25a92e]" name="mytest2" duration-ms="0" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mytest2 -->
+        <test-method status="PASS" signature="mytest1()[pri:0, instance:test.testng.listners.ListnerTest@5e25a92e]" name="mytest1" duration-ms="0" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mytest1 -->
+      </class> <!-- test.testng.listners.ListnerTest -->
+      <class name="test.testng.TestExceptions">
+        <test-method status="PASS" signature="testexception1()[pri:0, instance:test.testng.TestExceptions@11e21d0e]" name="testexception1" duration-ms="7" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <exception class="java.lang.ArithmeticException">
+            <message>
+              <![CDATA[/ by zero]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.ArithmeticException: / by zero
+	at test.testng.App.divide(App.java:10)
+	at test.testng.TestExceptions.testexception1(TestExceptions.java:13)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.ArithmeticException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testexception1 -->
+        <test-method status="PASS" signature="testexception2()[pri:0, instance:test.testng.TestExceptions@11e21d0e]" name="testexception2" duration-ms="0" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testexception2 -->
+      </class> <!-- test.testng.TestExceptions -->
+      <class name="test.testng.TestClass">
+        <test-method status="FAIL" signature="method1(java.lang.String, java.lang.String)[pri:0, instance:test.testng.TestClass@62fdb4a6]" name="method1" duration-ms="0" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'hostname' is required by @Test on method method1 but has not been marked @Optional or defined
+in C:\Users\SudhaChandoo\TestNG\testng\testng.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'hostname' is required by @Test on method method1 but has not been marked @Optional or defined
+in C:\Users\SudhaChandoo\TestNG\testng\testng.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:199)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:443)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:568)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1293)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:1020)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1110)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method1 -->
+      </class> <!-- test.testng.TestClass -->
+      <class name="test.testng.retry.MyRetryTest">
+        <test-method status="FAIL" signature="mytest1()[pri:0, instance:test.testng.retry.MyRetryTest@4df828d7]" name="mytest1" duration-ms="0" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at test.testng.retry.MyRetryTest.mytest1(MyRetryTest.java:13)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mytest1 -->
+        <test-method status="FAIL" signature="mytest2()[pri:0, instance:test.testng.retry.MyRetryTest@4df828d7]" name="mytest2" duration-ms="0" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at test.testng.retry.MyRetryTest.mytest2(MyRetryTest.java:19)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mytest2 -->
+      </class> <!-- test.testng.retry.MyRetryTest -->
+      <class name="test.testng.GroupsTest">
+        <test-method status="PASS" signature="method3()[pri:0, instance:test.testng.GroupsTest@76329302]" name="method3" duration-ms="0" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method3 -->
+        <test-method status="PASS" signature="method4()[pri:0, instance:test.testng.GroupsTest@76329302]" name="method4" duration-ms="0" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method4 -->
+        <test-method status="PASS" signature="method2()[pri:0, instance:test.testng.GroupsTest@76329302]" name="method2" duration-ms="0" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method2 -->
+        <test-method status="PASS" signature="method1()[pri:0, instance:test.testng.GroupsTest@76329302]" name="method1" duration-ms="0" started-at="2020-01-28T19:40:30Z" finished-at="2020-01-28T19:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method1 -->
+      </class> <!-- test.testng.GroupsTest -->
+      <class name="test.testng.TestAddition">
+        <test-method status="FAIL" signature="testaddition(java.lang.Integer, java.lang.Integer, java.lang.Integer)[pri:0, instance:test.testng.TestAddition@b59d31]" name="testaddition" duration-ms="0" started-at="2020-01-28T19:40:30Z" data-provider="mydp1" finished-at="2020-01-28T19:40:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[11]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [11] but found [9]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [11] but found [9]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:179)
+	at test.testng.TestAddition.testaddition(TestAddition.java:12)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testaddition -->
+        <test-method status="PASS" signature="testaddition(java.lang.Integer, java.lang.Integer, java.lang.Integer)[pri:0, instance:test.testng.TestAddition@b59d31]" name="testaddition" duration-ms="0" started-at="2020-01-28T19:40:30Z" data-provider="mydp1" finished-at="2020-01-28T19:40:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testaddition -->
+        <test-method status="PASS" signature="testaddition(java.lang.Integer, java.lang.Integer, java.lang.Integer)[pri:0, instance:test.testng.TestAddition@b59d31]" name="testaddition" duration-ms="0" started-at="2020-01-28T19:40:30Z" data-provider="mydp1" finished-at="2020-01-28T19:40:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testaddition -->
+      </class> <!-- test.testng.TestAddition -->
+    </test> <!-- mytest3 -->
+  </suite> <!-- mysuite1 -->
+</testng-results>
